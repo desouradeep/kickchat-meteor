@@ -1,0 +1,17 @@
+<template name="user_list">
+    <div class="col-xs-2 nopadding side-panels">
+        <div class="list-group">
+            {{#each users}}
+                {{> online_users}}
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+<template name="online_users">
+     <a href="#" class="list-group-item">#kickchat</a>
+</template>
+
+<template name="userPill">
+    <span class="label {{labelClass}}">{{username}}</span>
+</template>
