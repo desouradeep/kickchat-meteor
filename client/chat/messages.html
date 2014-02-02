@@ -13,11 +13,11 @@
                         </tr>
                     </thead>
                     <tbody id='chat-body'>
-                        {{#each messages}}
+                        {{#each chat_messages}}
                         <tr id="{{ m.id }}">
                             <td>
                                 <a href='/profile/{{name}}'>
-                                    <!--<img src='/home/de/meteor/kickchat/images/default_dp.jpg' height=20px width=20px</img>-->
+                                    <img src='/images/default_dp.jpg' height=20px width=20px</img>
                                     <b>{{ name }}</b>
                                 </a>
                             </td>

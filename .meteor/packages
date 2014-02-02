@@ -9,5 +9,7 @@ insecure
 preserve-inputs
 bootstrap-3
 accounts-password
-accounts-facebook
 accounts-ui-bootstrap-3
+accounts-base
+malihu-custom-scrollbar
+accounts-facebook

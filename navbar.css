@@ -1,0 +1,16 @@
+#signin-dropdown {
+    height: 212px;
+    width: 250px;
+    padding: 5px 20px 0 20px;
+}
+
+#register-dropdown {
+    height: 300px;
+    width: 250px;
+    padding: 5px 20px 0 20px;
+}
+
+.dropdown-form-input {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
