@@ -34,6 +34,7 @@
             </div>
         </div>
 
+        {{#if currentUser}}
         <div id='text-entry-well' class='well no-border-radius'>
             <div class="input-group">
                 <input id='message-box' required type="text" class="form-control" autocomplete="off" autofocus placeholder="Text input">
@@ -42,6 +43,7 @@
                 </span>
             </div>
         </div>
+        {{/if}}
     </div>
 </template>
 

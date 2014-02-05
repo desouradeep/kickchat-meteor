@@ -8,16 +8,5 @@ Meteor.methods({
         })
         return 1
     },
-    create_user: function(data) {
-        console.log("CREATING USER");
-        console.log(data)
-        var USER_id = Meteor.users.insert({
-            username: data.username,
-            fullname: data.fullname,
-            password: data.password,
-            email: data.email,
-        });
-        return user_id;
-    },
 });
 

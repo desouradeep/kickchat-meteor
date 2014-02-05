@@ -16,7 +16,6 @@ function send_message_from_client () {
     Meteor.call("send_message", data, function(error, user_id) {
         $('#message-box').val('')
     });
-
 }
 $(document).ready(function(){
     $(window).resize(function(){
